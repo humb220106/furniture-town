@@ -1,0 +1,220 @@
+span{
+  font-family: cursive;
+}
+
+.nav-item{
+  font-family: cursive;
+}
+
+.dropdown{
+font-family: cursive;
+}
+
+
+
+.contact {
+  padding: 5rem 0;
+  font-family: cursive;
+}
+
+.contact-wrap {
+  color: #444;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.contact-address {
+  margin-right: 2rem;
+  width: 36%;
+  height: auto;
+}
+
+.contact-title h1 {
+  color: steelblue;
+}
+
+.contact-title p {
+  font-size: 1.2rem;
+  width: 90%;
+}
+
+.contact-info div {
+  margin-top: 2rem;
+}
+
+.contact-info div h3 {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info div h3 strong {
+  margin-left: 1rem;
+}
+
+.contact-info div p {
+  font-size: 1.2rem;
+}
+
+.contact-form {
+  width: 40%;
+  height: auto;
+}
+
+.contact-form form {
+  width: 100%;
+  height: auto;
+}
+
+.contact-form form .input-field {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 2rem;
+}
+
+.contact-form form .input-field input,
+.contact-form form .input-field select {
+  padding: 0 1rem;
+  color: #444;
+  font-size: 1.2rem;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0.1rem 0.1rem 0.6rem #ddd;
+  box-shadow: 0.1rem 0.1rem 0.6rem #ddd;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.contact-form .textarea-field {
+  height: 220px;
+  width: 100%;
+}
+
+.textarea-field textarea {
+  padding: 1rem;
+  font-size: 1.2rem;
+  height: 200px;
+  width: 100%;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0.1rem 0.1rem 0.6rem #ddd;
+  box-shadow: 0.1rem 0.1rem 0.6rem #ddd;
+}
+
+.button-field {
+  margin-top: 0.8rem;
+}
+
+.button-field button {
+  color: #fff;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 52px;
+  background: steelblue;
+  border: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img{
+  height: 30px;
+}
+
+footer{
+  color: rgb(255, 255, 255, 0.5);
+  background-color: rgb(0, 0, 0, 0.9);
+  padding: 6vh;
+  width: 100%;
+  margin-top: 6vh;
+  position: relative;
+}
+
+.footer-cont-container{
+  display: flex;
+  gap: 50px;
+  margin-top:3vh ;
+}
+
+.footer-cont{
+  width: 25%;
+}
+
+.footer-cont img {
+  margin: 8px;
+}
+
+.footer-cont h4{
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+.footer-cont p{
+  color: #fcb118;
+  font-size: medium;
+}
+
+.footer-cont a{
+  text-decoration: none;
+  margin-left: -5vh;
+  transition: all 0.5s;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.footer-cont a:hover{
+  color: #fcb118;
+}
+
+.footer-cont ul>*{
+  margin-top: 1.5vh;
+}
+
+.footer-cont input{
+  background-color: inherit;
+  border-color: inherit;
+  border-width: 2px;
+  width: 100%;
+  height: 40px;
+  color: inherit;
+  border-radius: 15px;
+  text-indent: 15px;
+}
+
+img .input-img {
+  margin-left: 270px;
+  margin-top: -60px;
+  width: 20px;
+}
+
+p.end-credits{
+  color: inherit;
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+p.end-credits span{
+  color: #fcb118;
+}
+
+.icons{
+  width: 20px;
+}
